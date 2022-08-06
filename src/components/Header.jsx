@@ -10,7 +10,7 @@ const Auth = () => {
   }
 
   return (
-    <Box>      
+    <Box>
       <Text
         fontWeight="300"
         display="inline-block"
@@ -31,7 +31,7 @@ const Auth = () => {
 export const Header = () => {
   return (
     <Flex width="100%" justifyContent="space-between" px={4} py={3}>
-      <div onClick={() => (document.location = '/')} style={{display: 'flex', alignItems: 'center', cursor: 'pointer'}}>
+      <div onClick={() => (document.location = '/')} style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
         <img src={Logo} style={{ position: 'relative', width: '40px', top: '-1px' }} alt="Logo" />
         <Text ml={2} display="inline-block" fontWeight="600">
           ChifiBot
